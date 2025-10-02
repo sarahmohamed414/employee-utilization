@@ -1,0 +1,17 @@
+# Microsoft Lists Dynamic Dashboard Requirements
+# Core dependencies for the dashboard
+pandas>=2.0.0
+streamlit>=1.30.0
+plotly>=5.18.0
+numpy>=1.24.0
+requests>=2.31.0
+openpyxl>=3.1.0
+
+# Microsoft Lists integration dependencies
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+html5lib>=1.1
+
+# Optional: For enhanced data processing
+matplotlib>=3.7.0
+jinja2>=3.1.2
