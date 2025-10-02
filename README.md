@@ -50,7 +50,7 @@ docker run -d --name ollama \
   ollama/ollama:latest
 ```
 
-### Step 4: Initialize Database
+### Step 4: Initialize Database if you're using the static CSV data approach
 ```bash
 python3 setup_graph_db.py
 ```
