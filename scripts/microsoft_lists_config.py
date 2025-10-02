@@ -8,13 +8,13 @@ without requiring Microsoft Graph API access.
 # Microsoft Lists Configuration
 LISTS_CONFIG = {
     # Option 1: Direct URL to exported CSV/Excel file from Microsoft Lists
-    "export_url": "PASTE_YOUR_EXPORT_URL_HERE",  # Direct download URL from your Microsoft List export
+    "export_url": "https://dell-my.sharepoint.com/:l:/g/personal/mina_eskander_dellteam_com/FNj6z8utEXpIhpVPBX1kg4YBNEFI8y5g3bUCzKbQZvE6fg?e=hnaz8w",  # Direct download URL from your Microsoft List export
     
     # Option 2: Local file path (if you download the export manually)
     "local_file_path": "EG COE - ConsultingQ3.csv",  # Path to downloaded CSV/Excel file
     
     # Option 3: SharePoint direct link (if you can make it publicly accessible)
-    "sharepoint_url": "PASTE_YOUR_SHAREPOINT_LIST_URL_HERE",  # Direct link to the list view
+    "sharepoint_url": "https://dell-my.sharepoint.com/:l:/g/personal/mina_eskander_dellteam_com/FNj6z8utEXpIhpVPBX1kg4YBGY3s80nM4uZGnaxueLnLig?email=Ahmed.Soliman3%40dell.com&e=axVacY",  # Direct link to the list view
     
     # Data source preference
     "data_source": "sharepoint_url",  # Options: "export_url", "local_file_path", "sharepoint_url"
